@@ -12,6 +12,7 @@ def decorador(func):
 
 random= randint(0,10000)
 let = randint(1,10)
+
 @decorador
 def loteria(param1,param2):
     return (param1 * param2)
